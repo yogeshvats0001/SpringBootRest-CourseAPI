@@ -27,7 +27,4 @@ public class MyController {
 	public Course course(@PathVariable String courseID) {
 		return this.courseService.getCourse(Long.parseLong(courseID));
 	}
-	
-	
-	
 }
